@@ -162,14 +162,14 @@ p {
 
 .main-container {
     padding: 0 10%;
-    background-color: rgba(110, 107, 107, 0.425);
 }
 
 
 /** header, nav**/
 
 header {
-    /* border: 1px solid #666666; */
+    display: flex;
+    justify-content: center;
 }
 
 .nav-container {
@@ -177,7 +177,6 @@ header {
     margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
-    background-color: rgba(78, 78, 78, 0.5);
 }
 
 .lambda-container {
@@ -190,11 +189,9 @@ header {
     width: 90%;
     height: 50px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
     display: flex;
-    align-items: lex-start;
-    background-color: rgb(201, 12, 12);
+    align-items: flex-start;
 }
 
 .nav-bar {
@@ -212,7 +209,6 @@ header {
 .jumbo-container {
     display: flex;
     justify-content: center;
-    background-color: rgb(184, 124, 124);
 }
 
 .main-container {
@@ -259,6 +255,46 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
