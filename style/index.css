@@ -160,11 +160,16 @@ p {
     line-height: 1.4;
 }
 
+.main-container {
+    padding: 0 10%;
+    background-color: rgba(110, 107, 107, 0.425);
+}
+
 
 /** header, nav**/
 
 header {
-    border: 1px solid #666666;
+    /* border: 1px solid #666666; */
 }
 
 .nav-container {
@@ -176,6 +181,7 @@ header {
 }
 
 .lambda-container {
+    margin: 2%;
     padding: 5px;
 }
 
@@ -186,10 +192,14 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    display: flex;
+    align-items: lex-start;
+    background-color: rgb(201, 12, 12);
 }
 
 .nav-bar {
     display: flex;
+    background-color: #fff;
 }
 
 .nav-bar a {
@@ -201,10 +211,12 @@ header {
 
 .jumbo-container {
     display: flex;
+    justify-content: center;
+    background-color: rgb(184, 124, 124);
 }
 
-.container {
-    width: 800px;
+.main-container {
+    width: 100%;
     margin: 0 auto;
 }
 
