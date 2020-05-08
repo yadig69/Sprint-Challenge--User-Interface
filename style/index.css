@@ -185,7 +185,7 @@
     
     .nav-bar {
         display: flex;
-        background-color: #fff;
+        background-color: rgb(77, 77, 77);
     }
     
     .nav-bar a {
@@ -337,20 +337,34 @@
     }
     
     @media screen and (max-width: 960px) {
-        .nav-container {
+        header {
             display: flex;
-            align-self: flex-start;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
         }
-        .jumbo-container {
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-bar {
+            display: flex;
             justify-content: space-around;
+            flex-direction: column;
+        }
+        .nav-container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .jumbo-container {
+            display: flex;
             justify-content: center;
+            justify-content: space-around;
+            flex-shrink: 1;
+            align-self: flex-end;
         }
         .top-content {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             justify-content: space-evenly;
         }
         .middle-content h2 {
