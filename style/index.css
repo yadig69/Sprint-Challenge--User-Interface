@@ -352,8 +352,10 @@
         }
         .nav-container {
             display: flex;
+            justify-content: space-around;
             flex-direction: column;
             text-align: center;
+            padding: 20px;
         }
         .jumbo-container {
             display: flex;
