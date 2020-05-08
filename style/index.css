@@ -338,8 +338,9 @@
     
     @media screen and (max-width: 960px) {
         .nav-container {
+            display: flex;
             align-self: flex-start;
-            flex-wrap: wrap;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
         }
